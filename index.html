@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEVON AI</title>
+  <link rel="stylesheet" href="styles/main.css" />:
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/devon-logo.png" alt="Devon Logo" class="logo-img" />
+      <span>DEVON</span>
+    </div>
+    <div class="nav-buttons">
+      <a href="#">Login</a>
+      <a href="#">Subscribe</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Get Smart AI Predictions in One Tap</h1>
+    <p>We analyze markets and help you decide faster. Crypto, Index, and Stocks.</p>
+    <button onclick="document.getElementById('explore').scrollIntoView({ behavior: 'smooth' });">
+      Start Exploring Now
+    </button>
+  </section>
+
+  <section id="explore" class="card-section">
+    <div class="card">
+      <span class="card-type">Crypto</span>
+      <h3>Get BTC/USDT AI Predictions</h3>
+      <p>Live market sentiment with AI guidance built for crypto traders.</p>
+      <a href="pages/crypto.html"><button>Explore Crypto</button></a>
+    </div>
+    <div class="card">
+      <span class="card-type">Indices</span>
+      <h3>NIFTY50, BANKNIFTY AI Predictions</h3>
+      <p>Get Real-Time short term options trading predictions for NIFTY50 & BANKNIFTY. Timing(Monday-Friday:9:30AM-3:00PM)
+      </p>
+      <a href="pages/index.html"><button>Explore Indices</button></a>
+    </div>
+    <div class="card">
+      <span class="card-type">Stocks</span>
+      <h3>Indian Stocks AI Predictions</h3>
+      <p>AI-backed analysis on 1000+ Indian stocks. Tailored for intraday traders. Timing(Monday-Friday:9:30AM-3:00PM)
+      </p>
+      <a href="pages/stocks.html"><button>Explore Stocks</button></a>
+    </div>
+  </section>
+  <div class="qr-support-card">
+    <img src="/assets/qr-code.jpg" alt="Support QR" class="qr-img" />
+    <p class="qr-text">💛 Support a solo app developer like me.</p>
+  </div>
+
+  <footer>
+    <a href="./pages/terms.html">Terms</a>
+    <a href="./pages/refund.html">Refund</a>
+    <a href="./pages/contact.html">Contact</a>
+  </footer>
+
+</body>
+
+</html>
